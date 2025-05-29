@@ -1,0 +1,210 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    width: 45%;
+    margin: 50px auto 0;
+    margin-bottom: 60px;
+    
+}
+
+/* header */
+
+header{
+    margin: 0 auto 10px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 191, 132);
+    border: 2px solid rgb(255, 140, 32);
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+p{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+/* section */
+
+.section-form{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* elementos comunes de ambos form */
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+input{
+    padding-left: 5px;
+    border: 0;
+    background-color: rgb(255, 191, 132);
+    box-shadow: -3px 3px rgb(255, 140, 32);
+}
+
+::placeholder { 
+    color: black;
+}
+
+form p{
+    display: block;
+    width: 100%;
+}
+
+.button-div{
+    margin: 0 auto;
+    width: 30%;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px 2px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border: 2px solid rgb(255, 140, 32);
+    box-shadow: -6px 5px rgb(255, 140, 32);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 219, 185);;
+}
+
+/* formulario 1 */
+
+.form-1{
+    border: 1px solid rgb(255, 140, 32);
+    width: 45%;
+    border-radius: 10px;
+}
+
+.form-1-input{
+    display: block;
+    margin: 0 auto 20px;
+    width: 60%;
+    height: 30px;
+    border-radius: 5px 2px;
+}
+
+
+/* formulario 2 */
+
+.form-2{
+    border: 1px solid rgb(255, 140, 32);
+    width: 50%;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.form-2-input{
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px 2px;
+}
+
+.fila{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-2 p{
+    margin-top: 5px;
+    font-size: .9rem;
+    text-decoration: underline;
+}
+
+.fila-de-3-input{
+    width: 30%;
+    gap: 5%;
+}
+
+.fila-de-2-input{
+    width: 47%;
+}
+
+
+.direccion{
+    width: 64%;
+}
+
+.cp{
+    width: 30%;
+}
+
+
+/* Sección: Noticias */
+
+.h2-noticias{
+    margin-top: 50px;
+    border: 2px solid rgb(255, 140, 32);
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.noticias-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 22%;
+    border: 1px solid rgb(255, 191, 132);
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+.noticia-button{
+    width: 80%;
+}
+
+/* Tarjetas de noticias */
+
+.noticias-div img{
+    width: 100%;
+    height: 130px;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    padding: 20px 10px 0;
+}
+
+h3{
+    height: 70px;
+}
+
+.noticias-div p{
+    width: 100%;
+    height: 120px;
+    margin: 0px 0 -10px 0;
+    font-size: 0.9rem;
+}
+
+.linea-separadora{
+    background-color: rgb(255, 191, 132);
+    border: 0;
+    width: 100%;
+    height: 1px;
+    margin: -10px auto 20px;
+}
